@@ -1,0 +1,3 @@
+# Products added in the browser have no pre-built page; serve the shared fallback page.
+# Existing files (demo products, /items/add, /items/manage) take priority over this rule.
+/items/:id    /items/_/index.html    200
